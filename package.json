@@ -1,4 +1,18 @@
 {
   "name": "com.huchell.unity.json-assert",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "description": "Library to make asserting on Json",
+  "displayName": "JsonAssert",
+  "unity": "2022.3".
+  "license": "mit",
+  "author": {
+    "name": "Sean Murray",
+    "email": "sean.p.murray97@gmail.com",
+  },
+  "keywords": [
+    "json",
+    "nunit",
+    "tests",
+    "testing"
+  ]
 }
