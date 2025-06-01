@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+## [0.2.1] - 2025.06.01
+
 ## Fixed
 - Invalid json in `package.json`
 
@@ -19,5 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Added more info to `package.json` file
 
-[unreleased]: https://github.com/huchell/com.huchell.unity.json-assert/compare/v0.2.0...HEAD
+[unreleased]: https://github.com/huchell/com.huchell.unity.json-assert/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/huchell/com.huchell.unity.json-assert/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/huchell/com.huchell.unity.json-assert/compare/v0.1.0...v0.2.0
