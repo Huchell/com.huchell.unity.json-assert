@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [unreleased]
 
+## Fixed
+- Invalid json in `package.json`
+
 ## [0.2.0] - 2025.06.01
 
 ### Added
