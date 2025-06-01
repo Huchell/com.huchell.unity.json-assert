@@ -5,6 +5,16 @@ namespace JsonAssert.Unity
 {
     public static class ConstraintExpressionExtensions
     {
+        public static Constraint JsonObject(this ConstraintExpression expression)
+        {
+            return expression.Append(new JsonObjectConstraint());
+        }
+
+        public static Constraint JsonArray(this ConstraintExpression expression)
+        {
+            return expression.Append(new JsonArrayConstraint());
+        }
+
         public static ConstraintExpression JsonProperty(this ConstraintExpression expression, string name)
         {
             return expression.Append(new JsonPropertyOperator(name));

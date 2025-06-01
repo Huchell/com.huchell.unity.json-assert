@@ -10,6 +10,11 @@ namespace JsonAssert
             return new ConstraintExpression().Append(new JsonPropertyOperator(name));
         }
 
+        public static ResolvableConstraintExpression IndexAt(int index)
+        {
+            return new ConstraintExpression().Append(new IndexAtOperator(index));
+        }
+
         public static ResolvableConstraintExpression JsonPath(string path)
         {
             return new ConstraintExpression().Append(new JsonPathOperator(path));
