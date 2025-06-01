@@ -1,0 +1,20 @@
+{
+    "name": "JsonAssert.Tests",
+    "rootNamespace": "JsonAssert.Tests",
+    "references": [
+        "GUID:9875d5c03b8dd992b90a59eb06ae49a5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
