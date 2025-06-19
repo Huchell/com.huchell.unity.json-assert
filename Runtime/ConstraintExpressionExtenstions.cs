@@ -1,7 +1,7 @@
 using JsonAssert.Constraints;
 using NUnit.Framework.Constraints;
 
-namespace JsonAssert.Unity
+namespace JsonAssert
 {
     public static class ConstraintExpressionExtensions
     {
